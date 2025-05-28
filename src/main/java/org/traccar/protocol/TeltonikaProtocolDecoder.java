@@ -245,7 +245,7 @@ public class TeltonikaProtocolDecoder extends BaseProtocolDecoder {
         register(87, null, (p, b) -> p.set("Total Mileage", b.readUnsignedInt() / 1.609344 * 0.001));
         register(89, fmbXXX, (p, b) -> p.set("fuelLevelPercentage", b.readUnsignedByte()));
 	register(90, null, (p, b) -> p.set(Position.KEY_DOOR, b.readUnsignedShort()));
-	register(103, null, (p, b) -> p.set("Engine Worktime", b.readUnsignedInt() ));
+	register(103, null, (p, b) -> p.set("Engine Worktime", b.readUnsignedInt()));
 	register(107, null, (p, b) -> p.set(Position.KEY_FUEL_USED, b.readUnsignedInt() * 0.1));
         register(110, fmbXXX, (p, b) -> p.set(Position.KEY_FUEL_CONSUMPTION, b.readUnsignedShort() * 0.1));
         register(113, null, (p, b) -> p.set(Position.KEY_BATTERY_LEVEL, b.readUnsignedByte()));
