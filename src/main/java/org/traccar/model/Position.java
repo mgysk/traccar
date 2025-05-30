@@ -171,7 +171,7 @@ public class Position extends Message {
     public static final String ALARM_HARD_LEFT = "hardLeft";
     public static final String ALARM_HARD_RIGHT = "hardRight";
     public static final String ALARM_COLLISION = "collision";
-    
+ 
     public Position() {
     }
 
