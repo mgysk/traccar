@@ -151,7 +151,27 @@ public class Position extends Message {
     public static final String ALARM_FUEL_LEAK = "fuelLeak";
     public static final String ALARM_TAMPERING = "tampering";
     public static final String ALARM_REMOVING = "removing";
-
+    public static final String ALARM_ENGINE_OVERHEAT = "engineOverheat";
+    public static final String ALARM_CABIN_TEMP_HIGH = "cabinTempHigh";
+    public static final String ALARM_CABIN_TEMP_LOW = "cabinTempLow";
+    public static final String ALARM_FUEL_LOW = "fuelLow";
+    public static final String ALARM_DOOR_DRIVER = "doorDriverOpen";
+    public static final String ALARM_DOOR_PASSENGER = "doorPassengerOpen";
+    public static final String ALARM_DOOR_LEFT_REAR = "doorLeftRearOpen";
+    public static final String ALARM_DOOR_RIGHT_REAR = "doorRightRearOpen";
+    public static final String ALARM_DOOR_SECOND_LEFT = "doorSecondLeftOpen";
+    public static final String ALARM_DOOR_SECOND_RIGHT = "doorSecondRightOpen";
+    public static final String ALARM_ALL_DOORS = "allDoorsOpen";
+    public static final String ALARM_HOOD_OPEN = "hoodOpen";
+    public static final String ALARM_TRUNK_OPEN = "trunkOpen";
+    public static final String ALARM_REST_REMINDER = "restReminder";
+    public static final String ALARM_BATTERY_LOW = "batteryLow";
+    public static final String ALARM_GPRS_WEAK = "gprsWeak";
+    public static final String ALARM_GPS_WEAK = "gpsWeak";
+    public static final String ALARM_HARD_LEFT = "hardLeft";
+    public static final String ALARM_HARD_RIGHT = "hardRight";
+    public static final String ALARM_COLLISION = "collision";
+    
     public Position() {
     }
 
